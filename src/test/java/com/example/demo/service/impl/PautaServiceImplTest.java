@@ -20,7 +20,6 @@ class PautaServiceImplTest {
 
     @Autowired
     private MockMvc mockMvc;
-
     @Test
     @DisplayName("Deve Devolver Código Http 404")
     void cadastrar_cenario1() throws Exception {
