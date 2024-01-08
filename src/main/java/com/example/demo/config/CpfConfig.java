@@ -5,7 +5,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class CpfConfig {
-
     @Value("${cpf.info.url}")
     private String url;
 
